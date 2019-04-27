@@ -1,0 +1,7 @@
+$i: 1;
+@while $i <= 9 {
+	.icon-#{$i} img {
+		content: url('../img/icon_#{$i}.svg');
+	}
+	$i: $i + 1;
+}

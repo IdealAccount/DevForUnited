@@ -1,0 +1,16 @@
+.section-3 {
+	padding-bottom: 117px;
+	.section-content {
+		margin-bottom: 30px;
+  }
+}
+.section-content p:not(:last-of-type) {
+	margin-bottom: 20px;
+}
+.slider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
